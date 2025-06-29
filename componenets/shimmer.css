@@ -1,0 +1,9 @@
+.shimmercard{
+    width: 230px;
+    height: 330px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #181818;
+    background-color: #d7d7d7;
+    box-shadow: none;
+}
