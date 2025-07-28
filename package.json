@@ -1,14 +1,19 @@
 {
+  "homepage": "https://github.com/naveen-1105/Countries-using-react",
   "name": "countries",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.15.2"
   },
   "dependencies": {
